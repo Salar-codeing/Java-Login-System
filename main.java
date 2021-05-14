@@ -104,10 +104,10 @@ public class main extends JFrame {
 				String password = passwordField.getText().trim().toLowerCase();
 				
 				//check the username and password
-				if (username.equals("salar") && password.equals("hashemian")) {
+				if (username.equals("admin") && password.equals("1234")) {
 					//if the info was correct
 					lblNewLabel_2.setVisible(true);
-					lblNewLabel_2.setText("   Welcome Salar");
+					lblNewLabel_2.setText("   Welcome"+username);
 					lblNewLabel_2.setForeground(Color.black);
 				}else {
 					//if the info was not correct
